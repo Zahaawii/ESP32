@@ -1,0 +1,9 @@
+Command: cmake -G Ninja -B /Users/zahaawii/IdeaProjects/guitarSensor/hello_world/build -DPYTHON_DEPS_CHECKED=1 -DPYTHON=/Users/zahaawii/.espressif/tools/python/v6.0.1/venv/bin/python -DESP_PLATFORM=1 -DCCACHE_ENABLE=False /Users/zahaawii/IdeaProjects/guitarSensor/hello_world
+Configuration Report               
+ ───────────────────────────────── 
+   Parser Version: 1               
+   Verbosity: default              
+   Defaults policy: sdkconfig      
+   Status: Finished successfully   
+                                   
+ ───────────────────────────────── 

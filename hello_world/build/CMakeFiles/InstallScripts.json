@@ -157,6 +157,7 @@
 		"/Users/zahaawii/IdeaProjects/guitarSensor/hello_world/build/esp-idf/rt/cmake_install.cmake",
 		"/Users/zahaawii/IdeaProjects/guitarSensor/hello_world/build/esp-idf/spiffs/cmake_install.cmake",
 		"/Users/zahaawii/IdeaProjects/guitarSensor/hello_world/build/esp-idf/ulp/cmake_install.cmake",
+		"/Users/zahaawii/IdeaProjects/guitarSensor/hello_world/build/esp-idf/espressif__led_strip/cmake_install.cmake",
 		"/Users/zahaawii/IdeaProjects/guitarSensor/hello_world/build/esp-idf/main/cmake_install.cmake"
 	],
 	"Parallel" : false
