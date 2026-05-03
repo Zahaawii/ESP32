@@ -1,7 +1,7 @@
 {
     "version":            "1.3",
     "project_name":       "hello_world",
-    "project_version":    "8aa178b-dirty",
+    "project_version":    "ef93875-dirty",
     "project_path":       "/Users/zahaawii/IdeaProjects/guitarSensor/hello_world",
     "idf_path":           "/Users/zahaawii/.espressif/v6.0.1/esp-idf",
     "build_dir":          "/Users/zahaawii/IdeaProjects/guitarSensor/hello_world/build",

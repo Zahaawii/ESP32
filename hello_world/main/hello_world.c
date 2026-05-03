@@ -51,7 +51,7 @@ void app_main(void)
 
     // Turn everything off first
     led_strip_clear(strip);
-/*
+
     // Turn LED 0 RED (low brightness)
     for (int i = 0; i < 64; i++)
     {
@@ -93,8 +93,9 @@ void app_main(void)
     led_strip_set_pixel(strip, get_index(7, 7), 16, 0, 0);
     led_strip_refresh(strip);
     vTaskDelay(pdMS_TO_TICKS(1000));
-    */
+    
 
+    
     // Helper function to set the data easier, variable strip is just strip, x for the x axes, y for the y axes, r = red, g = green, b = blue
     led_strip_clear(strip);
     printf("x = 0, y = 0\n");
@@ -106,6 +107,21 @@ void app_main(void)
     set_xy(strip, 2, 0, 16, 0, 0);
     printf("x = 2, y = 0\n");
     led_strip_refresh(strip);
+
+    // Typing HI on the board
+    led_strip_clear(strip);
+    set_xy(strip, 1, 3, 16, 0, 0);
+    set_xy(strip, 1, 4, 16, 0, 0);
+    set_xy(strip, 1, 5, 16, 0, 0);
+    set_xy(strip, 2, 4, 16, 0, 0);
+    set_xy(strip, 3, 3, 16, 0, 0);
+    set_xy(strip, 3, 4, 16, 0, 0);
+    set_xy(strip, 3, 5, 16, 0, 0);
+    set_xy(strip, 5, 3, 16, 0, 0);
+    set_xy(strip, 5, 4, 16, 0, 0);
+    set_xy(strip, 5, 5, 16, 0, 0);
+    led_strip_refresh(strip);
+  
 
     while (1)
     {
